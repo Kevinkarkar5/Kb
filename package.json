@@ -1,0 +1,48 @@
+{
+  "name": "gitfolio",
+  "version": "0.1.5",
+  "description": "a portfolio website for everyone to showcase their work",
+  "main": "build.js",
+  "bin": "bin/gitfolio.js",
+  "scripts": {
+    "cli": "OUT_DIR='./dist' node bin/gitfolio.js",
+    "clean": "rm -rf ./dist/*",
+    "prettier": "prettier --write \"./**/*.{js,jsx,json,html,css,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "@imfunniee and community",
+    "email": "imfunny@wybemf.com",
+    "url": "https://imfunniee.github.io"
+  },
+  "bugs": "https://github.com/imfunniee/gitfolio/issues",
+  "homepage": "https://github.com/imfunniee/gitfolio",
+  "keywords": [
+    "personal-website",
+    "github",
+    "portfolio",
+    "portfolio website",
+    "blog website",
+    "blog",
+    "gitfolio",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imfunniee/gitfolio"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "commander": "^9.3.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "github-emoji": "^1.2.0",
+    "got": "^12.1.0",
+    "handlebars": "^4.7.7",
+    "jsdom": "^19.0.0",
+    "ncp": "^2.0.0",
+    "prettier": "^2.6.2"
+  }
+}
